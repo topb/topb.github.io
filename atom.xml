@@ -4,7 +4,7 @@
   <title><![CDATA[Topbit]]></title>
   <link href="http://topb.it/atom.xml" rel="self"/>
   <link href="http://topb.it/"/>
-  <updated>2013-09-17T23:06:18-05:00</updated>
+  <updated>2013-09-17T23:11:00-05:00</updated>
   <id>http://topb.it/</id>
   <author>
     <name><![CDATA[ling]]></name>
@@ -19,6 +19,9 @@
     <updated>2013-09-17T22:49:00-05:00</updated>
     <id>http://topb.it/blog/2013/09/17/why-javascript-will-become-the-dominant-programming-language-of-the-enterprise</id>
     <content type="html"><![CDATA[<p>There is no denying that since its inception in the mid 90’s, JavaScript has become one of the most popular Web development languages. In September 2012, industry analyst firm, RedMonk, showed it as the top language. Much of this is due to its ability to deliver rich, dynamic web content, its relatively lightweight and its high ease of use.</p>
+
+<!--more-->
+
 
 <p>Although initially developed as a browser-agnostic scripting language, in recent years, we’ve seen its continued evolution beyond the desktop to areas such as mobility and server-side web applications. Over the next few years, JavaScript is poised to become the dominant language of the enterprise for IT &ndash; ultimately displacing the all-encompassing and highly pervasive C, C++ and Java languages.</p>
 
