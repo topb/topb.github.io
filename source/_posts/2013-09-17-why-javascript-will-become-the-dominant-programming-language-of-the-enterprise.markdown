@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Why JavaScript Will Become The Dominant Programming Language Of The Enterprise"
+date: 2013-09-17 22:49
+comments: true
+categories: 
+---
+
+There is no denying that since its inception in the mid 90’s, JavaScript has become one of the most popular Web development languages. In September 2012, industry analyst firm, RedMonk, showed it as the top language. Much of this is due to its ability to deliver rich, dynamic web content, its relatively lightweight and its high ease of use.
+
+Although initially developed as a browser-agnostic scripting language, in recent years, we’ve seen its continued evolution beyond the desktop to areas such as mobility and server-side web applications. Over the next few years, JavaScript is poised to become the dominant language of the enterprise for IT - ultimately displacing the all-encompassing and highly pervasive C, C++ and Java languages.
+
+There are several factors that support this reasoning:
+
+#### Mobility & Client-Side Development
+
+Today virtually all enterprises recognize that mobility is foundational to disrupting markets, gaining competitive advantage and increasing efficiencies, in many cases by an order of magnitude. The rate at which users adopt new devices and apps, and the fact they demand a constant stream of innovations and updates, is driving shorter, more frequent release cycles, measured in days or weeks rather than months or quarters.
+
+
+User experience has also become a crucial issue, due largely to Apple, who dramatically raised the bar for what is considered acceptable. Users now demand a great user experience, and the overall success and adoption of an app is highly correlated to it. In the enterprise, trends like Bring Your Own Device and Bring Your Own App are driving consumer-like behavior regarding the adoption of mobile apps. The result is that the user experience has become key to the success of any application regardless of its target and not something a CIO can ignore.
+
+JavaScript’s ability to meet the demands of rapid development, while at the same time maximizing the user experience, makes it a natural fit for mobile development platforms. It’s no coincidence that both Apple and Google have exposed JavaScript application programming interfaces to their mobile development tool kits in order to expand their developer base.
+
+#### Cloud & Server-Side Development
+
+When it comes to mobile solutions in the enterprise, the cloud is the name of the game. And here JavaScript’s role is fast becoming just as central. Although not historically associated with server-side development, JavaScript has in the last four years seen swift adoption as a backend technology platform via Node.js.
+
+Node.js, a software platform used to build scalable network applications based on Google's V8 JavaScript engine, is growing like gangbusters. It is being adopted by millions of developers and enterprises for a wide range of use-cases. Big brand names like GM, Yahoo, Dow Jones, Walmart and Dell have all deployed Node.js and are touting its merits.
+
+According to Strongloop, a company and community that supports Node.js, there are over 35,000 downloads of Node.js per day. When it comes to cloud adoption it’s one of the top four software systems, supported by five of the six major platform-as-a-service providers including Amazon, Google and Microsoft. Node.js has over 30,000 modules available. It’s this strong ecosystem of developers that makes it so compelling to enterprise IT.
+
+#### Resources & Skill Sets
+
+Although there is no definitive measure to determine the absolute popularity of different development languages, much of the research uses metrics such as search queries, job postings and Github projects as the basis of its reporting.
+
+SitePoint, an Australian book publisher focused on developers, compared data from job vacancies for 2012 and showed that JavaScript demand has increased faster than any other language. JavaScript doubles Ruby, Objective C and Android (Java), and over three times more than C++ and C#.
+
+
+The TIOBE Programming Community Index, another indicator of the popularity of programming languages, looks at the numbers of skilled engineers, courses and third party vendors based on popular search engine queries. For June 2013 it showed that JavaScript was the fifth fastest growing language, year over year, after Objective C, PHP, Java and Python.
+
+#### Where To Start?
+
+It’s rare that shifts as dramatic as mobile and cloud don’t require IT organizations to re-staff or re-train around the (often complex and befuddling) New Thing. But JavaScript, owing to its power, flexibility and ubiquity, holds out just this promise.Early-adopter enterprises are already repurposing their Web developers as mobile developers, leveraging their JavaScript skills and applying them to these new domains. Similarly, server-side developers of traditional corporate applications are migrating their expertise to JavaScript and find it an easy and natural migration from more complex languages such as Java and C#.
+
+#### Becoming The Default Enterprise Programming Language
+
+There are strong odds in favor of JavaScript becoming the dominant language ofthe enterprise. This isn’t to say every other language will atrophy overnight (they won’t; too many legacy systems count on them) nor that JavaScript is free of issues (no language is). But the gigantic efficiencies to be gained by having a lingua franca for the enterprise, especially when that lingua is easily learned and already in wide adoption, makes the case for JavaScript very strong. Even Microsoft has warmed to the JavaScript movement, promoting it to first-class citizenship in Windows 8.
+
+Importantly, there’s also JavaScript’s popularity in high school computer courses,owing to its simplicity and quick learning curve. At least the next few generations of programmers are likely to treat JavaScript as their native programming tongue.
+
+All of this is good news for the enterprise. A simple, open language, equally adapted to building both client and server-side apps? There’s no such thing as technology utopia, but JavaScript looks like the next best thing.
+
+Cloud computing images courtesy Shutterstock.
