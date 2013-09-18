@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://topb.github.io/sitemap.xml 
