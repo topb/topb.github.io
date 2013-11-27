@@ -4,62 +4,71 @@ single: true
 ---
 
 <div>
-<article class="hentry" role="article">
-  {% include article.html %}
-  <footer>
-    <p class="meta">
-      {% include post/author.html %}
-      {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-      {% include post/categories.html %}
-    </p>
-    {% unless page.sharing == false %}
+  <article class="hentry" role="article">
+    {% include article.html %}
+    <footer>
+      <p class="meta">
+        {% include post/author.html %}
+        {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+        {% include post/categories.html %}
+      </p>
+      {% unless page.sharing == false %}
       {% include post/sharing.html %}
-    {% endunless %}
-    <p class="meta">
-      {% if page.previous.url %}
+      {% endunless %}
+      <p class="meta">
+        {% if page.previous.url %}
         <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-      {% endif %}
-      {% if page.next.url %}
+        {% endif %}
+        {% if page.next.url %}
         <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
-      {% endif %}
-    </p>
-  </footer>
-</article>
-{% if site.disqus_short_name and page.comments == true %}
+        {% endif %}
+      </p>
+    </footer>
+  </article>
+  {% if site.disqus_short_name and page.comments == true %}
   <section>
     <h1>Comments</h1>
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
   </section>
-{% endif %}
-<!-- JiaThis Button BEGIN -->
-<div id="ckepop">
-<span class="jiathis_txt">分享到：</span>
-<a class="jiathis_button_tsina">新浪微博</a>
-<a class="jiathis_button_t163">网易微博</a>
-<a class="jiathis_button_tqq">腾讯微博</a>
-<a class="jiathis_button_renren">人人网</a>
-<a class="jiathis_button_douban">豆瓣</a>
+  {% endif %}
 
-<a href="http://www.jiathis.com/share?uid=1842166" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
-<a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-var jiathis_config={
-    data_track_clickback:true,
-    sm:"t163,tsina,tqq,renren,douban",
-    summary:"",
-    hideMore:false
-}
-</script>
-<script type="text/javascript" src="http://v2.jiathis.com/code_mini/jia.js?uid=1842166" charset="utf-8"></script>
-<!-- JiaThis Button END -->
+  <section>
+    <!-- JiaThis Button BEGIN -->
+    <div id="ckepop">
+      <span class="jiathis_txt">分享到：</span>
+      <a class="jiathis_button_tsina">新浪微博</a>
+      <a class="jiathis_button_t163">网易微博</a>
+      <a class="jiathis_button_tqq">腾讯微博</a>
+      <a class="jiathis_button_renren">人人网</a>
+      <a class="jiathis_button_douban">豆瓣</a>
+
+      <a href="http://www.jiathis.com/share?uid=1842166" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+      <a class="jiathis_counter_style"></a>
+    </div>
+    <script type="text/javascript" >
+      var jiathis_config={
+        data_track_clickback:true,
+        sm:"t163,tsina,tqq,renren,douban",
+        summary:"",
+        hideMore:false
+      }
+    </script>
+    <script type="text/javascript" src="http://v2.jiathis.com/code_mini/jia.js?uid=1842166" charset="utf-8"></script>
+    <!-- JiaThis Button END -->
+    <br/>
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1842166"></script>
+    <!-- UY END -->
+  </section>
+
 </div>
 {% unless page.sidebar == false %}
 <aside class="sidebar">
   {% if site.post_asides.size %}
-    {% include_array post_asides %}
+  {% include_array post_asides %}
   {% else %}
-    {% include_array default_asides %}
+  {% include_array default_asides %}
   {% endif %}
 </aside>
 {% endunless %}

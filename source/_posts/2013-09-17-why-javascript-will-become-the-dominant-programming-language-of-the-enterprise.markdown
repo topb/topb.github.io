@@ -6,7 +6,11 @@ comments: true
 categories: 
 ---
 
+![JavaScript]({{ site.url }}/assets/post/2013-09-17-why-javascript-will-become-the-dominant-programming-language-of-the-enterprise.jpg)
+
 There is no denying that since its inception in the mid 90’s, JavaScript has become one of the most popular Web development languages. In September 2012, industry analyst firm, RedMonk, showed it as the top language. Much of this is due to its ability to deliver rich, dynamic web content, its relatively lightweight and its high ease of use.
+
+<!--more-->
 
 Although initially developed as a browser-agnostic scripting language, in recent years, we’ve seen its continued evolution beyond the desktop to areas such as mobility and server-side web applications. Over the next few years, JavaScript is poised to become the dominant language of the enterprise for IT - ultimately displacing the all-encompassing and highly pervasive C, C++ and Java languages.
 
@@ -34,7 +38,6 @@ According to Strongloop, a company and community that supports Node.js, there ar
 Although there is no definitive measure to determine the absolute popularity of different development languages, much of the research uses metrics such as search queries, job postings and Github projects as the basis of its reporting.
 
 SitePoint, an Australian book publisher focused on developers, compared data from job vacancies for 2012 and showed that JavaScript demand has increased faster than any other language. JavaScript doubles Ruby, Objective C and Android (Java), and over three times more than C++ and C#.
-
 
 The TIOBE Programming Community Index, another indicator of the popularity of programming languages, looks at the numbers of skilled engineers, courses and third party vendors based on popular search engine queries. For June 2013 it showed that JavaScript was the fifth fastest growing language, year over year, after Objective C, PHP, Java and Python.
 

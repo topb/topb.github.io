@@ -4,7 +4,7 @@
 
 url: http://topb.it
 title: Topbit
-subtitle: A web design and development blog
+subtitle: A web design and development blog about the latest web trends and JavaScript
 author: ling
 simple_search: http://google.com/search
 description: Topbit is a web design and development blog that publishes articles and tutorials about the latest web trends, techniques and new possibilities.
@@ -63,7 +63,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user: topb
+github_user:
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
